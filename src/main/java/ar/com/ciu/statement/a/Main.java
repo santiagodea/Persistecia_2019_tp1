@@ -5,7 +5,6 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-import java.util.Date;
 
 import ar.com.ciu.model.Cliente;
 
@@ -13,9 +12,12 @@ import ar.com.ciu.model.Cliente;
  * 
  * Statement
  * 
- * @author Satiago
+ * @author Santiago
  *
- */
+ */ 
+
+ //12. Agregar un cliente a través de Statement.
+
 public class Main {
 
 	private static Connection dbConnection = null;

@@ -1,6 +1,6 @@
 package ar.com.ciu.model;
 
-import java.sql.Date;
+import java.util.Date;
 
 public class Precio {
 
@@ -9,10 +9,11 @@ public class Precio {
 	private Date fecha;
 	private Integer id_producto;
 
-	public Precio(double monto, Date fecha) {
+	public Precio(double monto, Date date, Integer producto) {
 		super();
 		this.monto = monto;
-		this.fecha = fecha;
+		this.fecha = date;
+		this.id_producto = producto;
 	}
 
 	public Integer getId() {
